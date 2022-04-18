@@ -1,0 +1,20 @@
+Needed plugins:
+npm i
+npm i nodemailer express nodemailer-mailgun-transport dotenv -S
+npm i express mongoose cors body-parser morgan --save
+npm i concurrently –-save
+npm install axios –-save
+
+
+Needed APIs:
+You need to create a DB at mongoDB and use it at server.js
+You need to use mailgun and use their API key and Domain in mail.js'
+
+Files:
+Create config.js at root directory 
+Add the needed credidentials mentioned above in that folder
+In mail.js use your mailgun mail in from
+
+Run server:
+Running with concurrently so you can run server by:
+npm run dev
